@@ -46,6 +46,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+			<!-- JAXB API -->
+			<dependency>
+				<groupId>jakarta.xml.bind</groupId>
+				<artifactId>jakarta.xml.bind-api</artifactId>
+				<version>4.0.2</version>
+			</dependency>
+
+			<!-- JAXB Runtime (Eclipse Implementation) -->
+			<dependency>
+				<groupId>org.glassfish.jaxb</groupId>
+				<artifactId>jaxb-runtime</artifactId>
+				<version>4.0.2</version>
+			</dependency>
+
 	</dependencies>
 
 	<build>
