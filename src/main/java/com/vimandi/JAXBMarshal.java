@@ -25,7 +25,7 @@ public class JAXBMarshal {
 // Convert XML back to Java
         Unmarshaller unmarshaller = context.createUnmarshaller();
         Employee emp2 = (Employee) unmarshaller.unmarshal(new File("emp.xml"));
-System.out.println(emp2.getId() + " , "+emp2.getName());
+        System.out.println("Employee Details : "+ emp2.getId() + " : "+emp2.getName());
 
 
 
