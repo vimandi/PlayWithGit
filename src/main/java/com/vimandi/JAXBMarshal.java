@@ -43,12 +43,4 @@ System.out.println(emp2.getId() + " , "+emp2.getName());
 //hotfix 3
 
 
-
-//squash1
-
-
-//squash2
-
-
-
-
+//relase 1
