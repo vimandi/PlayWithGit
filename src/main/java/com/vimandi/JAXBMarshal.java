@@ -31,23 +31,3 @@ System.out.println(emp2.getId() + " , "+emp2.getName());
 
     }
 }
-
-//feature f6
-
-
-//hotfix 1
-
-//hotfix 2
-
-
-//hotfix 3
-
-
-//relase 1
-
-//release 2
-
-
-//main 1
-
-//main 2
