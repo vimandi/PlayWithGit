@@ -15,11 +15,10 @@ public class JAXBMarshal {
 
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
 		// Convert Java object to XML
         marshaller.marshal(emp, new File("emp.xml"));
-
-
         
         JAXBContext context = JAXBContext.newInstance(Employee.class);
 
