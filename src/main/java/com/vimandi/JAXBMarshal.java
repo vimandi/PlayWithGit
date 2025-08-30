@@ -15,17 +15,16 @@ public class JAXBMarshal {
 
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
 		// Convert Java object to XML
         marshaller.marshal(emp, new File("emp.xml"));
         
         JAXBContext context = JAXBContext.newInstance(Employee.class);
-
+        //some meaningful comment
 		// Convert XML back to Java
         Unmarshaller unmarshaller = context.createUnmarshaller();
         Employee emp2 = (Employee) unmarshaller.unmarshal(new File("emp.xml"));
-        System.out.println("Employee Details : "+ emp2.getId() + " : "+emp2.getName());
+        System.out.println("Employee Details are following : "+ emp2.getId() + " : "+emp2.getName());
 
 
 
