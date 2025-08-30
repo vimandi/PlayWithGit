@@ -25,6 +25,7 @@ public class Employee {
         this.name = name;
     }
     public String getSurname(){
-        return null;
+
+        return "Vasu Imandi";
     }
 }
