@@ -25,29 +25,3 @@ public class Employee {
         this.name = name;
     }
 }
-//System.out.println("t1");
-
-
-//System.out.println("test");
-
-
-
-
-//f6 a
-
-
-//merge1
-
-//merge2
-
-
-//REL3 A
-
-
-//REL3 B
-
-
-
-//p1 a
-
-//p1 b
