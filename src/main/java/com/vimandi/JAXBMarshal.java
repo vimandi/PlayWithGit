@@ -47,5 +47,8 @@ System.out.println(emp2.getId() + " , "+emp2.getName());
 //squash1
 
 
+//squash2
+
+
 
 
