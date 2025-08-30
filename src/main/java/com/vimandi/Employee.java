@@ -3,6 +3,7 @@ package com.vimandi;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
+//f6 b
 @XmlRootElement
 public class Employee {
     private int id;
@@ -26,4 +27,6 @@ public class Employee {
 }
 
 
-//feature f7
+
+//f6 a
+
