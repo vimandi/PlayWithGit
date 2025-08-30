@@ -20,6 +20,7 @@ public class JAXBMarshal {
         marshaller.marshal(emp, new File("emp.xml"));
 
 */
+        /*
         JAXBContext context = JAXBContext.newInstance(Employee.class);
 
 // Convert XML back to Java
@@ -27,7 +28,7 @@ public class JAXBMarshal {
         Employee emp2 = (Employee) unmarshaller.unmarshal(new File("emp.xml"));
 System.out.println(emp2.getId() + " , "+emp2.getName());
 
-
+*/
 
     }
 }
